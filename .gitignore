@@ -1,0 +1,23 @@
+# Ignore everything in repository root
+/*
+
+# Do not ignore .config/ but ignore everything in it
+!/.config/
+/.config/* 
+# Folders to not ignore
+!/.config/btop/
+!/.config/cava/
+!/.config/fastfetch/
+!/.config/fish/
+!/.config/hypr/
+!/.config/swaylock/
+!/.config/waybar/
+!/.config/wlogout/
+!/.config/wofi/
+
+# Files to not ignore
+!/.gitignore
+!/.wezterm.lua
+!/.bash_profile
+!/.config/user-dirs.dirs
+!/.config/user-dirs.locale
