@@ -14,5 +14,5 @@ end
 #ALIASES SECTION
 
 #System maintenance aliases:
-alias update='sudo yay -Syu'
+alias update='yay'
 alias shutdown='sudo shutdown -h now'
