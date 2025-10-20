@@ -7,7 +7,7 @@ local config = wezterm.config_builder()
 
 --Hyprland specific
 config.enable_wayland = false
-
+config.window_close_confirmation = 'NeverPrompt'
 -- Fonts:
 config.font = wezterm.font('HackNerdFont', {weight = 'Bold'})
 config.font_size = 11.6
