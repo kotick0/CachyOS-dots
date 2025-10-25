@@ -7,12 +7,12 @@ fi
 
 # --- Detect NVIDIA GPU ---
 if lspci | grep -qi nvidia; then
-    # --- NVIDIA + Wayland variables ---
-    export WLR_NO_HARDWARE_CURSORS=1
-    export __GLX_VENDOR_LIBRARY_NAME=nvidia
-    export LIBVA_DRIVER_NAME=nvidia
-    export NVD_BACKEND=direct
-    export ELECTRON_OZONE_PLATFORM_HINT=auto
+# --- NVIDIA + Wayland variables ---
+  export NVD_BACKEND=direct
+  export ELECTRON_OZONE_PLATFORM_HINT=auto
+  export WLR_RENDERER_ALLOW_SOFTWARE=0
+  export __NV_PRIME_RENDER_OFFLOAD=1
+  export __VK_LAYER_NV_optimus=NVIDIA_only
 fi
 
 # --- Start Hyprland only on TTY1 ---
