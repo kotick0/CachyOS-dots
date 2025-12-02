@@ -24,3 +24,8 @@ if [ "$(tty)" = "/dev/tty1" ]; then
     fi
 fi
 
+
+
+# Added by Toolbox App
+export PATH="$PATH:/home/kotecku/.local/share/JetBrains/Toolbox/scripts"
+
