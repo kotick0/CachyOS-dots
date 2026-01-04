@@ -4,7 +4,7 @@ end
 
 #Start up scripts
 function fish_greeting
-     pokemon-colorscripts -r 1-4 --no-title
+     pokemon-colorscripts -r 1-4
 end
 
 function sudo
