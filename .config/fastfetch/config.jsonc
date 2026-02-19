@@ -3,7 +3,7 @@
 
 "logo": {
     "type": "file",
-    "source": "/home/kotick/.config/fastfetch/fox.txt",
+    "source": "~/.config/fastfetch/fox.txt",
     "color": {
 	"1": "light_white"
   }

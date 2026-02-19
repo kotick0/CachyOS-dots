@@ -14,10 +14,10 @@
 !/.config/waybar/
 !/.config/wlogout/
 !/.config/wofi/
+!/.config/kitty/
 
 # Files to not ignore
 !/.gitignore
-!/.wezterm.lua
 !/.bash_profile
 !/.config/user-dirs.dirs
 !/.config/user-dirs.locale
